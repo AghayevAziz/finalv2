@@ -1,0 +1,41 @@
+#form {
+  margin-top: 100px;
+}
+#mainform {
+  background-color: #fff;
+  border: px solid #f1f1f1;
+  padding: 20px;
+  height: auto;
+  opacity: 0.8;
+  animation-name: form;
+  animation-duration: 1s;
+  transition: ease-in-out 0.3s;
+}
+@keyframes form {
+  0% {
+    opacity: 0;
+  }
+  100% {
+  }
+}
+.contact-us {
+  animation-name: contact-us;
+  animation-duration: 1s;
+  margin-left: x;
+}
+@keyframes contact-us {
+  0% {
+    margin-left: -400px;
+  }
+  100% {
+  }
+}
+#mainform:hover {
+  box-shadow: 0 0 20px #cccccc;
+  opacity: 1;
+}
+
+#btn {
+  width: 100%;
+  background-color: purple;
+}
